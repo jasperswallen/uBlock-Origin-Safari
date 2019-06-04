@@ -18,7 +18,10 @@
 		0F394BE022A61E6F002B1BA4 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F394BDF22A61E6F002B1BA4 /* SafariExtensionViewController.swift */; };
 		0F394BE322A61E6F002B1BA4 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F394BE122A61E6F002B1BA4 /* SafariExtensionViewController.xib */; };
 		0F394BE622A61E6F002B1BA4 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 0F394BE522A61E6F002B1BA4 /* script.js */; };
-		0F394BE822A61E6F002B1BA4 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0F394BE722A61E6F002B1BA4 /* ToolbarItemIcon.pdf */; };
+		0F394BF422A6241E002B1BA4 /* power.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F394BF322A6241E002B1BA4 /* power.png */; };
+		0F394BFA22A629E1002B1BA4 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F394BF922A629E1002B1BA4 /* logo.png */; };
+		0F394C0122A62C1C002B1BA4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F394C0022A62C1C002B1BA4 /* Info.plist */; };
+		0F394C0522A634DB002B1BA4 /* logo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0F394C0422A634DB002B1BA4 /* logo.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,10 +61,12 @@
 		0F394BDD22A61E6F002B1BA4 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
 		0F394BDF22A61E6F002B1BA4 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
 		0F394BE222A61E6F002B1BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
-		0F394BE422A61E6F002B1BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F394BE522A61E6F002B1BA4 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
-		0F394BE722A61E6F002B1BA4 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		0F394BE922A61E6F002B1BA4 /* uBlock_Origin_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = uBlock_Origin_Extension.entitlements; sourceTree = "<group>"; };
+		0F394BF322A6241E002B1BA4 /* power.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = power.png; path = Images/power.png; sourceTree = SOURCE_ROOT; };
+		0F394BF922A629E1002B1BA4 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Images/logo.png; sourceTree = SOURCE_ROOT; };
+		0F394C0022A62C1C002B1BA4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F394C0422A634DB002B1BA4 /* logo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = logo.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,7 @@
 		0F394BC422A61E6D002B1BA4 /* uBlock Origin */ = {
 			isa = PBXGroup;
 			children = (
+				0F394BF922A629E1002B1BA4 /* logo.png */,
 				0F394BC522A61E6D002B1BA4 /* uBlock_Origin.entitlements */,
 				0F394BC722A61E6D002B1BA4 /* AppDelegate.swift */,
 				0F394BC922A61E6D002B1BA4 /* Main.storyboard */,
@@ -126,12 +132,13 @@
 		0F394BDC22A61E6F002B1BA4 /* uBlock Origin Extension */ = {
 			isa = PBXGroup;
 			children = (
+				0F394C0422A634DB002B1BA4 /* logo.pdf */,
+				0F394BF322A6241E002B1BA4 /* power.png */,
 				0F394BDD22A61E6F002B1BA4 /* SafariExtensionHandler.swift */,
 				0F394BDF22A61E6F002B1BA4 /* SafariExtensionViewController.swift */,
 				0F394BE122A61E6F002B1BA4 /* SafariExtensionViewController.xib */,
-				0F394BE422A61E6F002B1BA4 /* Info.plist */,
+				0F394C0022A62C1C002B1BA4 /* Info.plist */,
 				0F394BE522A61E6F002B1BA4 /* script.js */,
-				0F394BE722A61E6F002B1BA4 /* ToolbarItemIcon.pdf */,
 				0F394BE922A61E6F002B1BA4 /* uBlock_Origin_Extension.entitlements */,
 			);
 			path = "uBlock Origin Extension";
@@ -218,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F394BFA22A629E1002B1BA4 /* logo.png in Resources */,
 				0F394BC622A61E6D002B1BA4 /* uBlock_Origin.entitlements in Resources */,
 				0F394BCF22A61E6E002B1BA4 /* Assets.xcassets in Resources */,
 				0F394BCB22A61E6D002B1BA4 /* Main.storyboard in Resources */,
@@ -228,9 +236,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F394BE822A61E6F002B1BA4 /* ToolbarItemIcon.pdf in Resources */,
+				0F394BF422A6241E002B1BA4 /* power.png in Resources */,
 				0F394BE322A61E6F002B1BA4 /* SafariExtensionViewController.xib in Resources */,
+				0F394C0122A62C1C002B1BA4 /* Info.plist in Resources */,
 				0F394BE622A61E6F002B1BA4 /* script.js in Resources */,
+				0F394C0522A634DB002B1BA4 /* logo.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +411,7 @@
 		0F394BED22A61E6F002B1BA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "uBlock Origin Extension/uBlock_Origin_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JN3J9W4VNK;
@@ -421,6 +432,7 @@
 		0F394BEE22A61E6F002B1BA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "uBlock Origin Extension/uBlock_Origin_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JN3J9W4VNK;
