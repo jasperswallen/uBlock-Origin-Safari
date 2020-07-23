@@ -42,9 +42,9 @@ class ViewController: NSViewController {
                 return
             }
 
-            DispatchQueue.main.async {
-                NSApplication.shared.terminate(nil)
-            }
+//            DispatchQueue.main.async {
+//                NSApplication.shared.terminate(nil)
+//            }
         }
     }
 
